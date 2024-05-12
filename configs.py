@@ -6,7 +6,7 @@ import os
 class Config(object):
 	API_ID = 1923471
 	API_HASH = "fcdc178451cd234e63faefd38895c991"
-	BOT_TOKEN = "5847305225:AAGas3fWupjYJXPbTDHJR6BH0bw80sxB1h0"
+	BOT_TOKEN = "7031870365:AAGVTsJcD7JChbTUMQBepqRCS_gmGGpjwus"
 	BOT_USERNAME = "publicmoviesharebot"
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001814192750"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "880087645"))
