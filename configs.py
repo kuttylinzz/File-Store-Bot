@@ -4,15 +4,15 @@ import os
 
 
 class Config(object):
-	API_ID = 1923471
-	API_HASH = "fcdc178451cd234e63faefd38895c991"
-	BOT_TOKEN = "7031870365:AAGVTsJcD7JChbTUMQBepqRCS_gmGGpjwus"
-	BOT_USERNAME = "publicmoviesharebot"
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001814192750"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "880087645"))
-	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://leecher:leecher@cluster0.606mkpi.mongodb.net/?retryWrites=true&w=majority")
+	API_ID = 17833358
+	API_HASH = "b52cd2b77ec1833ec5b96a9d70a363bb"
+	BOT_TOKEN = "7236258270:AAFlhsx6Z2KVKQjla4NnAx-pvkLepAX4i_E"
+	BOT_USERNAME = "KuttyFileSharingBot"
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002105619071"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5691291380"))
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Itachi:15@itachiuchicha.3nsc8.mongodb.net/?retryWrites=true&w=majority&appName=ItachiUchicha")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "moviekoodu")
-	LOG_CHANNEL = -1001814192750
+	LOG_CHANNEL = -1002272796218
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
